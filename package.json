@@ -1,0 +1,26 @@
+{
+  "name": "boilerplate",
+  "source": "src/index.html",
+  "browserlist": ">0.5%, last 2 versions, not dead",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "parcel:dev": "parcel",
+    "parcel:build": "parcel build",
+    "clean": "rimraf dist .parcel-cache",
+    "start": "npm-run-all clean parcel:dev",
+    "build": "npm-run-all clean parcel:build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.4",
+    "npm-run-all": "^4.1.5",
+    "parcel": "latest",
+    "postcss": "^8.4.12",
+    "rimraf": "^3.0.2",
+    "tailwindcss": "^3.0.23"
+  }
+}
